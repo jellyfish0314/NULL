@@ -98,7 +98,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick, onMaterialsClick }) 
               {/* Primary Visual: Brand Philosophy Card with brass pin and sunlight caustics */}
               <div className="relative overflow-hidden bg-[#F2EDE4] border border-[#2C2926]/10 shadow-sm transition-transform duration-700 hover:scale-[1.01]">
                 <img
-                  src="/assets/aistudio/0a8f1ae5-ff57-4f6c-bf1b-78c6c777eab5_b00770dc.png"
+                  src="./assets/aistudio/0a8f1ae5-ff57-4f6c-bf1b-78c6c777eab5_b00770dc.png"
                   alt="Nulli 物本集品牌哲学手札与日影"
                   className="w-full h-auto object-cover max-h-[580px]"
                   loading="eager"
@@ -119,7 +119,7 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick, onMaterialsClick }) 
               {/* Secondary Floating Accent Card: Northern Cedar EDP in foliage light */}
               <div className="hidden sm:block absolute -bottom-8 -left-8 w-44 lg:w-48 bg-[#FAF8F5] p-2.5 border border-[#2C2926]/15 shadow-md">
                 <img
-                  src="/assets/aistudio/QQ__20261014170318_11__fb4dc56f.png"
+                  src="./assets/aistudio/QQ__20261014170318_11__fb4dc56f.png"
                   alt="北国雪松香水与冷翠松影"
                   className="w-full h-44 object-cover"
                   loading="eager"

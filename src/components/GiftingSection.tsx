@@ -45,7 +45,7 @@ export const GiftingSection: React.FC<GiftingSectionProps> = ({ onAddToCart }) =
           <div className="lg:col-span-6 relative">
             <div className="relative overflow-hidden bg-[#FAF8F5] border border-[#2C2926]/10 shadow-sm">
               <img
-                src="/assets/aistudio/QQ__20261014170318_8__fcaebec8.png"
+                src="./assets/aistudio/QQ__20261014170318_8__fcaebec8.png"
                 alt="雾影半透自然装裱典藏礼盒"
                 className="w-full h-auto object-cover max-h-[520px]"
                 loading="lazy"

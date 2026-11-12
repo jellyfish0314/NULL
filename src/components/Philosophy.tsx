@@ -70,7 +70,7 @@ export const Philosophy: React.FC = () => {
             <div className="space-y-3">
               <div className="overflow-hidden border border-[#2C2926]/10 bg-[#FAF8F5]">
                 <img
-                  src="/assets/aistudio/2679451f-4790-448f-9fcd-2428f4fca08d_19172bd2.png"
+                  src="./assets/aistudio/2679451f-4790-448f-9fcd-2428f4fca08d_19172bd2.png"
                   alt="草木日影透光黄铜挂屏"
                   className="w-full h-72 sm:h-80 object-cover hover:scale-105 transition-transform duration-700"
                   loading="lazy"
@@ -85,7 +85,7 @@ export const Philosophy: React.FC = () => {
             <div className="space-y-3 pt-8">
               <div className="overflow-hidden border border-[#2C2926]/10 bg-[#FAF8F5]">
                 <img
-                  src="/assets/aistudio/cdaa491e-81a1-4bc8-902c-c21ca3b78438_78fefdc9.png"
+                  src="./assets/aistudio/cdaa491e-81a1-4bc8-902c-c21ca3b78438_78fefdc9.png"
                   alt="浮光绿叶凝露晶体"
                   className="w-full h-72 sm:h-80 object-cover hover:scale-105 transition-transform duration-700"
                   loading="lazy"
