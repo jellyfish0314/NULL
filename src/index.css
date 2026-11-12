@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: "Cormorant Garamond", "Noto Serif SC", serif;
+    --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+  }
+
+  body {
+    background-color: #FAF8F5;
+    color: #242220;
+    overflow-x: hidden;
+  }
+}
+
+.font-serif-brand {
+  font-family: "Cormorant Garamond", "Noto Serif SC", serif;
+}
+
+.font-sans-clean {
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+/* Natural Sun Caustic & Water Reflection Subtle Flow */
+@keyframes caustic-drift {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.35;
+  }
+  50% {
+    transform: translate(2%, 3%) scale(1.04) rotate(0.5deg);
+    opacity: 0.55;
+  }
+  100% {
+    transform: translate(0, 0) scale(1);
+    opacity: 0.35;
+  }
+}
+
+.animate-caustic {
+  animation: caustic-drift 12s ease-in-out infinite;
+}
+
+/* Subtle organic grain overlay for tactile paper & linen feeling */
+.paper-grain {
+  background-image: radial-gradient(rgba(44, 41, 38, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}

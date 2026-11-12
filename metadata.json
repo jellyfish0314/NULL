@@ -1,0 +1,6 @@
+{
+  "name": "Nulli 物本集",
+  "description": "Nulli 物本集，物归本，无繁饰。不印刷自然，而是捕捉自然。以透光光影艺术为独有语言，以天然可降解材质为底层标准的高端生活方式集合。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
