@@ -52,8 +52,8 @@ export const Footer: React.FC = () => {
               </p>
               <ul className="space-y-2 text-[#C4BCB0]">
                 <li><a href="#philosophy" className="hover:text-white transition-colors">品牌哲学宣言</a></li>
-                <li><a href="#light-simulator" className="hover:text-white transition-colors">动态光影实验室</a></li>
                 <li><a href="#materials" className="hover:text-white transition-colors">180天降解闭环</a></li>
+                <li><a href="#matrix" className="hover:text-white transition-colors">行业差异对比</a></li>
                 <li><a href="#materials" className="hover:text-white transition-colors">0复合涂层标准</a></li>
                 <li><a href="#gifting" className="hover:text-white transition-colors">极简礼赠定制</a></li>
               </ul>

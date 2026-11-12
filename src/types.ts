@@ -26,15 +26,3 @@ export interface CartItem {
   giftWrapping?: boolean;
   giftMessage?: string;
 }
-
-export interface LightPreset {
-  id: string;
-  name: string;
-  time: string;
-  angle: number; // 15 to 165 degrees
-  intensity: number; // 0.4 to 1.0
-  colorTemp: string; // warm amber to crisp cool
-  causticOpacity: number;
-  shadowBlur: number;
-  description: string;
-}

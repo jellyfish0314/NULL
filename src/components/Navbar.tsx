@@ -35,16 +35,16 @@ export const Navbar: React.FC<NavbarProps> = ({ cartCount, onOpenCart }) => {
             系列器物
           </a>
           <a 
-            href="#light-simulator" 
-            className="hover:text-[#1F1C19] transition-colors whitespace-nowrap shrink-0 py-1 border-b border-transparent hover:border-[#2C2926]"
-          >
-            光影交互
-          </a>
-          <a 
             href="#materials" 
             className="hover:text-[#1F1C19] transition-colors whitespace-nowrap shrink-0 py-1 border-b border-transparent hover:border-[#2C2926]"
           >
             材质溯源
+          </a>
+          <a 
+            href="#matrix" 
+            className="hover:text-[#1F1C19] transition-colors whitespace-nowrap shrink-0 py-1 border-b border-transparent hover:border-[#2C2926]"
+          >
+            品牌差异
           </a>
           <a 
             href="#gifting" 

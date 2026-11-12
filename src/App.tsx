@@ -4,7 +4,6 @@ import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { Philosophy } from './components/Philosophy';
 import { Collections } from './components/Collections';
-import { LightSimulator } from './components/LightSimulator';
 import { MaterialTraceability } from './components/MaterialTraceability';
 import { CompetitiveMatrix } from './components/CompetitiveMatrix';
 import { GiftingSection } from './components/GiftingSection';
@@ -84,14 +83,11 @@ export default function App() {
         {/* Hero Section */}
         <Hero
           onExploreClick={() => scrollToSection('collections')}
-          onSimulateClick={() => scrollToSection('light-simulator')}
+          onMaterialsClick={() => scrollToSection('materials')}
         />
 
         {/* Philosophy & Anti-Consumerism Manifesto */}
         <Philosophy />
-
-        {/* Dynamic Light & Caustic Simulation Lab */}
-        <LightSimulator />
 
         {/* Curated Product Collections Matrix */}
         <Collections

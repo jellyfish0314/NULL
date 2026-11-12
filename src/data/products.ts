@@ -1,4 +1,4 @@
-import { Product, LightPreset } from '../types';
+import { Product } from '../types';
 
 export const PRODUCTS: Product[] = [
   {
@@ -160,53 +160,6 @@ export const PRODUCTS: Product[] = [
     sustainableNote: '全盒可100%降解拆解，去除非必要胶水粘合，礼盒可长期留作首饰收纳盒使用。',
     inStock: true,
     featured: true,
-  },
-];
-
-export const LIGHT_PRESETS: LightPreset[] = [
-  {
-    id: 'morning',
-    name: '晨光初晞',
-    time: '07:30 晨光',
-    angle: 30,
-    intensity: 0.65,
-    colorTemp: 'amber',
-    causticOpacity: 0.45,
-    shadowBlur: 14,
-    description: '斜照破晓晨曦，光影纤长温润，空气中带着微凉水汽。',
-  },
-  {
-    id: 'noon',
-    name: '正午炽阳',
-    time: '12:00 顶光',
-    angle: 90,
-    intensity: 0.95,
-    colorTemp: 'neutral',
-    causticOpacity: 0.85,
-    shadowBlur: 6,
-    description: '高悬正午烈阳，穿透晶体投射出最为明晰清冽的焦散光斑与水纹。',
-  },
-  {
-    id: 'golden',
-    name: '暮色斜晖',
-    time: '17:15 金黄',
-    angle: 150,
-    intensity: 0.75,
-    colorTemp: 'warm',
-    causticOpacity: 0.6,
-    shadowBlur: 18,
-    description: '余晖浸染金黄，光影在白墙与案头拉出悠长的诗意折射。',
-  },
-  {
-    id: 'rainy',
-    name: '雨过天晴',
-    time: '15:45 霁光',
-    angle: 110,
-    intensity: 0.8,
-    colorTemp: 'cool',
-    causticOpacity: 0.7,
-    shadowBlur: 10,
-    description: '云隙散开微雨初霁，水珠折射出虹彩般微妙的空灵光晕。',
   },
 ];
 

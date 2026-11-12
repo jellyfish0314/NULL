@@ -3,10 +3,10 @@ import { ArrowDown, Sparkles } from 'lucide-react';
 
 interface HeroProps {
   onExploreClick: () => void;
-  onSimulateClick: () => void;
+  onMaterialsClick: () => void;
 }
 
-export const Hero: React.FC<HeroProps> = ({ onExploreClick, onSimulateClick }) => {
+export const Hero: React.FC<HeroProps> = ({ onExploreClick, onMaterialsClick }) => {
   return (
     <section className="relative overflow-hidden pt-12 pb-20 lg:pt-20 lg:pb-32 border-b border-[#2C2926]/10">
       {/* Subtle organic light gradient & caustics backdrop */}
@@ -67,11 +67,11 @@ export const Hero: React.FC<HeroProps> = ({ onExploreClick, onSimulateClick }) =
                 浏览五大系列器物
               </button>
               <button
-                onClick={onSimulateClick}
+                onClick={onMaterialsClick}
                 className="group flex items-center gap-2 px-6 py-3.5 text-xs tracking-widest uppercase font-medium text-[#242220] border border-[#242220]/25 hover:border-[#242220] bg-transparent hover:bg-[#FAF8F5] transition-all whitespace-nowrap"
               >
                 <Sparkles className="w-3.5 h-3.5 text-[#8C847C] group-hover:text-[#242220] transition-colors" />
-                <span>体验动态日光交互</span>
+                <span>探寻可持续材质溯源</span>
               </button>
             </div>
 

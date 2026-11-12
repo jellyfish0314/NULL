@@ -49,7 +49,7 @@ const COMPARISONS: CompetitorRow[] = [
 
 export const CompetitiveMatrix: React.FC = () => {
   return (
-    <section className="py-24 lg:py-32 bg-[#FAF8F5] border-b border-[#2C2926]/10">
+    <section id="matrix" className="py-24 lg:py-32 bg-[#FAF8F5] border-b border-[#2C2926]/10">
       <div className="mx-auto max-w-7xl px-6 lg:px-12">
         {/* Header */}
         <div className="max-w-3xl space-y-3">
